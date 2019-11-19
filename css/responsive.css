@@ -1,0 +1,930 @@
+@media only screen and (max-width:640px){
+/*Lava iris 820(size : 360**640)*/
+
+/*------------nav Bar-----------------*/
+
+#index,
+#userLogin,
+#adminLogin,
+#createAccount,
+#addItem,
+#todayUpdate,
+#userNewChose,
+#userList,
+#editPrice,
+#todaysPrice,
+#userChose,
+#wishList,
+#finalWishList,
+#purchaseList,
+#updatePrice,
+#userFullInfo,
+#userAccountEdit,
+#userCompleteView {
+   height: auto;
+}
+
+.btn{
+    background: transparent;   
+    border-radius: 24px;
+    border: 2px solid #dff9fb;
+    color: #fff;
+    padding: 10px;
+}
+
+.table img{
+   width: 80%;
+   padding: 0px;
+   border: 0.5px solid pink;
+}     
+
+.navbar{
+   background-color: #009688;
+   width: 100%;  
+}
+
+.logo{ 
+    width: 100%;    
+}
+.logo ul {
+   padding: 10px 30px;
+}
+
+
+.navbar-toggle {
+   padding: 8px 12px;
+   border: 2px solid #ddd;
+   border-radius: 5px ;
+   top: -60px;
+   font-size: 18px;
+   margin-bottom: -48px;
+   margin-right: 25px;
+}
+
+.navbar-toggle:hover{
+   background-color: #ddd;
+   color: #000;
+} 
+
+
+.navbar-toggle:active{
+   background-color: #C4E538;
+}
+
+.menu_area{
+   width: 100%;
+   background: #424242;  
+   position: absolute;  /*also in serber not fixed*/
+}
+
+
+.menu_area ul li{
+   padding: 10px 30%;
+   display:block;
+}
+
+.menu_area ul li a {
+   text-align: center;
+   font-size: 15px; 
+   padding: 5px 0px;
+   margin: 0;
+   font-size: 15px;  
+   background: #485460;   
+   border-radius: 24px;
+   border: 2px solid #0be881;
+   color: #fff;
+   font-weight: bold;
+}
+
+.menu_area ul li a:hover{
+   background-color: #ddd;
+   color: black;
+}
+.menu_area ul li a:active{
+   background-color: #32ff7e;
+   color: #fff;
+}
+
+
+/*-------------index-----------------*/
+
+#index .form-group .btn {
+   background: transparent;
+   margin: 0% 30%;       
+}
+
+#index .form-group .btn-info {
+   margin: 0% 25%; 
+}
+
+#index .form-group a{ 
+  font-size: 20px;
+}
+
+#index{  
+   height: 450px;
+   padding-bottom: 250px;
+}
+
+#index .btn {    
+    border-radius: 24px;
+    border: 3px solid #dff9fb;
+    color: #fff;
+   box-shadow: 0 3px 0 0 #7ed6df;
+}
+
+#index .btn:hover{
+   background: #01a3a4;
+  color: #000;
+  border-color: #222f3e;
+}
+
+#index .btn:active{
+   background: #ff6b6b;
+}
+
+
+/*--------------adminLogin----------------*/
+
+#adminLogin{  
+   height: 450px;
+   padding-bottom: 250px;
+}
+
+#adminLogin label{  
+ margin-left: 10px;
+ border-color: green;
+}
+
+#adminLogin input{  
+  width: 120px;
+  margin-left: 125px;
+  margin-top: -40px;
+}
+
+#adminLogin button{  
+  margin-left: 140px;
+}  
+
+#adminLogin .btn-filled {
+  font-size: 15px;
+  margin-top: -10px;
+  padding: 5px 7px;
+}
+
+#adminLogin .btn-success {
+    background: transparent;   
+    border-radius: 24px;
+    border: 3px solid #dff9fb;
+    color: #fff;
+    box-shadow: 0 3px 0 0 #6ab04c;
+}
+
+.btn-success:hover{
+   background: #32ff7e;
+  color: #000;
+  border-color: #33a6cc;
+}
+
+/*-----------------adminAccount-----------*/
+
+
+#adminAccount .contact_fullwidth {
+   position: static;
+}
+
+#adminAccount .contact_us , .middle{
+   background: none;
+}
+
+#adminAccount .contact_us h2{
+   font-size: 20px;
+   padding-top: 0px;
+   margin-top: -30px;
+}
+
+#adminAccount .left {   
+ width:auto;
+  margin-left: -20px;
+  padding: 5px;
+  background-color: green;
+}
+
+#adminAccount .left h3{   
+  font-size: 1em;
+  line-height: 10px;
+  margin-top: 0px;
+
+}
+
+#adminAccount .right {   
+   padding: 5px 5px 0px 5px ;
+   background-color: green;
+   margin-right: -20px;
+
+}
+
+#adminAccount .contact_us img{  
+   width: 65px;
+   height: 65px;
+   border-radius: 50%;
+   border: 2px solid #dff9fb;
+
+}
+#adminAccount .right .name {   
+  font-size: 12px;
+}
+
+#adminAccount .middle {  
+  position: static;
+}
+
+#adminAccount .middle form{
+  margin-top: 50%;
+}
+
+#adminAccount .middle a{ 
+   padding: 5px 10px;
+   font-size: 1.2em;
+   background-color:#706fd3;
+}
+
+/*when image not found*/
+#adminAccount .right form{     
+   width:  120px;
+   height: 100px;
+}
+#adminAccount .right label{   
+   font-size: 12px;
+   padding: 5px 0;
+   margin-left: 0px;
+   border: 2px solid #ddd;
+   border-radius: 24px;
+   background-color: #dfe4ea;
+   color: black;
+}
+#adminAccount .right label:hover{   
+   background-color: magenta;
+}
+#adminAccount .right label:active{   
+   background-color: pink;
+}
+
+#adminAccount .right button{   
+  margin-top: 5px;
+  padding: 5px;
+  background-color: #33d9b2;
+   color: black;
+}
+
+
+/*-----------------addItem-------------*/
+#addItem .row{
+  margin: 0px;
+  height: auto;
+  width: auto;
+}
+
+#addItem .two_button{
+  margin-top: -150px;
+}
+
+#addItem form  .first{
+  padding-top: 40px; 
+  text-align: center;
+}
+
+#addItem form{
+  font-size: 12px;
+}
+
+#addItem select {    
+    width: auto;  
+    text-align: left;     
+}
+
+.addItem{
+   width: auto;
+   height: auto;
+   margin-left: -100px;
+}
+
+#addItem thead th{
+  font-size: 16px;
+}
+
+#addItem .table img{
+   width: 80%;
+   padding: 0px;
+   border: 0.5px solid pink;
+
+} 
+
+#addItem .table label {
+  font-size: 18px;
+  padding: 10px 0px 0px 0px;
+  margin-left: 0px;
+  text-align: center;
+}
+
+#addItem .table input[type="text"]{
+  margin-bottom: 0px;
+}
+
+#addItem .table td:nth-child(3) {
+    padding: 10px 10px;
+}
+
+#addItem .secondHead .smallFont label{   
+  font-size: 1em;
+  padding: 0px;
+  padding: 15px 0px 0px;
+  margin: 0px;
+}
+#addItem form button{   
+  margin: 0 0 10px 50px;
+}
+
+
+
+/*-----------------todayUpdate-------------*/
+
+#todayUpdate .row{
+  margin: -45px 0 0 0;
+}
+#todayUpdate .choseDate2{
+  width: 100%;
+}
+
+#todayUpdate .todayUpdate{
+   margin-top: 20px;
+}
+
+#todayUpdate .table{
+   width: 100%;
+}
+
+#todayUpdate thead th{
+  font-size: 16px;
+}
+
+#todayUpdate .table img{
+   width: 80%;
+   padding: 0px;
+   border: 0.5px solid pink;
+} 
+
+#todayUpdate .table label {
+  font-size: 18px;
+  padding: 10px 0px 0px 0px;
+  margin-left: 0px;
+  text-align: center;
+}
+
+#todayUpdate .table td:nth-child(3) {
+   font-weight: bold;
+   font-size: 1em;
+}
+
+#todayUpdate .smallFont label{   
+  font-size: 1em;
+  padding: 0px;
+  padding: 15px 0px 0px;
+  margin: 0px;
+}
+
+
+
+/*-----------------userList-------------*/
+#userList {
+  margin-top: -100px;
+}
+#userList .row h3{
+  padding-top: 1em;
+}
+#userList .table  th:nth-child(1) {
+    display: none;
+}
+
+#userList .table  td:nth-child(1){
+    display: none;
+}
+
+#userList .table  td { 
+  vertical-align: middle;
+}
+
+/*-----------------userFullInfo-------------*/
+#userFullInfo {
+  margin-top: -95px;
+}
+
+/*-----------------userAccountEdit-------------*/
+
+#userAccountEdit {
+  margin-top: -90px;
+}
+
+/*-----------------userNewChose-------------*/
+
+#userNewChose {
+  margin-top: -90px;
+}
+
+#userNewChose .table  th:nth-child(1) {
+    display: none;
+}
+
+#userNewChose .table  td:nth-child(1){
+    display: none;
+}
+
+
+#userNewChose .table  td { 
+  vertical-align: middle;
+}
+
+/*--------------userLogin-----------------*/
+
+#userLogin{  
+   height: 450px;
+   padding-bottom: 250px;
+}
+
+
+#userLogin label{  
+ margin-left: 10px;
+ border-color: green;
+}
+
+#userLogin input{  
+  width: 120px;
+  margin-left: 125px;
+  margin-top: -40px;
+}
+
+#userLogin button{  
+  margin-left: 140px;
+}  
+
+#userLogin .btn-filled {
+  font-size: 15px;
+  margin-top: -10px;
+  padding: 5px 7px;
+}
+
+#userLogin .btn-success {
+    background: transparent;   
+    border-radius: 24px;
+    border: 3px solid #dff9fb;
+    color: #fff;
+    box-shadow: 0 3px 0 0 #6ab04c;
+}
+
+.btn-success:hover{
+   background: #32ff7e;
+  color: #000;
+  border-color: #33a6cc;
+}
+
+
+
+/*-----------------userAccount-----------*/
+
+#userAccount .contact_fullwidth {
+   position: static;
+}
+
+#userAccount .contact_us , .middle{
+   background: none;
+}
+
+#userAccount .contact_us h2{
+   font-size: 20px;
+   padding-top: 0px;
+   margin-top: -30px;
+}
+
+#userAccount .left {   
+  width: auto;
+   margin-left: -20px;
+   padding: 5px;
+   background-color: green;
+}
+
+#userAccount .left h3{   
+  font-size: 1em;
+  line-height: 10px;
+  margin-top: 0px;
+}
+
+
+#userAccount .right {   
+   padding: 5px 5px 0px 5px ;
+   background-color: green;
+   margin-right: -20px;
+}
+
+#userAccount .contact_us img{
+   height: 65px;
+   width: 65px;
+   border-radius: 50%;
+   border: 2px solid #dff9fb;
+}
+
+#userAccount .right .name {   
+  font-size: 12px;
+}
+
+#userAccount .middle {  
+  position: static;
+}
+
+.middle form{
+  margin-top: 50%;
+}
+
+#userAccount .middle a{ 
+   padding: 5px 10px;
+   font-size: 1.2em;
+   background-color: #706fd3;
+}
+
+/*------------when image not found--------------*/
+#userAccount .right form{     
+   width:  120px;
+   height: 100px;
+}
+#userAccount .right label{   
+   font-size: 12px;
+   padding: 5px 0;
+   margin-left: 0px;
+   border: 2px solid #ddd;
+   border-radius: 24px;
+   background-color: #dfe4ea;
+   color: black;
+}
+#userAccount .right label:hover{   
+   background-color: magenta;
+}
+#userAccount .right label:active{   
+   background-color: pink;
+}
+
+#userAccount .right button{   
+  margin-top: 5px;
+  padding: 5px;
+  background-color: #33d9b2;
+   color: black;
+}
+
+
+
+/*-----------------todaysPrice-------------*/
+
+#todaysPrice .row{
+  margin: -45px 0 0 0;
+}
+#todaysPrice .choseDate2{
+  width: 100%;
+}
+
+#todaysPrice .todaysPrice{
+   margin-top: 20px;
+}
+
+#todaysPrice .table{
+   width: 100%;
+}
+
+#todaysPrice thead th{
+  font-size: 16px;
+}
+
+#todaysPrice .table td{
+  vertical-align: middle;
+}
+
+#todaysPrice .table img{
+   width: 80%;
+   padding: 0px;
+   border: 0.5px solid pink;
+} 
+
+#todaysPrice .table td:nth-child(3) {
+   font-weight: bold;
+   font-size: 1.2em;
+}
+
+#todaysPrice .footerButton{7
+   display: block;
+}
+
+/*------------userChose---------------*/
+
+#userChose {
+  margin-top: -90px;
+}
+
+#userChose{
+  /*width: 100%;*/
+}
+
+#userChose .table{
+   width: 100%;
+}
+
+#userChose thead th{
+  font-size: 16px;
+}
+
+#userChose .table td{
+  vertical-align: middle;
+}
+
+#userChose tbody input[type=checkbox] {
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */  
+  margin: 40%;
+}
+
+#userChose .table img{
+   width: 60%;
+   padding: 0px;
+   border: 0.5px solid pink;
+   margin: 0px;
+} 
+
+
+/*------------footer---------------*/
+
+#footer{
+  background-color: #424242;
+  vertical-align: middle;
+}
+
+#footer li{
+  padding:8px 8px ;
+  font-size: 2em;
+}
+
+#footer .fa{
+  color:  #86878b ;
+}
+
+#footer p{
+  display:none; 
+}
+
+}
+
+
+/*apple small mobile width: mobilewidth: 734px */
+
+@media only screen and (min-width:560px) and (max-width:640px) and (orientation: landscape) {
+
+/*------------nav Bar-----------------*/
+#index,
+#userLogin,
+#adminLogin,
+#createAccount,
+#addItem,
+#todayUpdate,
+#userNewChose,
+#userList,
+#editPrice,
+#todaysPrice,
+#userChose,
+#wishList,
+#finalWishList,
+#purchaseList,
+#updatePrice,
+#userFullInfo,
+#userAccountEdit,
+#userCompleteView {
+   height: auto;
+}
+
+.btn{
+    background: transparent;   
+    border-radius: 24px;
+    border: 2px solid #dff9fb;
+    color: #fff;
+    padding: 10px;
+}
+
+.table img{
+   width: 80%;
+   padding: 0px;
+   border: 0.5px solid pink;
+}     
+
+.navbar{
+   background-color: #009688;
+   width: 100%;  
+}
+
+.logo{ 
+    width: 100%;    
+}
+.logo ul {
+   padding: 10px 30px;
+}
+
+
+.navbar-toggle {
+   padding: 8px 12px;
+   border: 2px solid #ddd;
+   border-radius: 5px ;
+   top: -60px;
+   font-size: 18px;
+   margin-bottom: -48px;
+   margin-right: 25px;
+}
+
+.navbar-toggle:hover{
+   background-color: #ddd;
+   color: #000;
+} 
+
+
+.navbar-toggle:active{
+   background-color: #C4E538;
+}
+
+.menu_area{
+   width: 100%;
+   background: #424242;  
+   position: absolute;  /*also in serber not fixed*/
+}
+
+
+.menu_area ul li{
+   padding: 10px 30%;
+   display:block;
+}
+
+.menu_area ul li a {
+   text-align: center;
+   font-size: 15px; 
+   padding: 5px 0px;
+   margin: 0;
+   font-size: 15px;  
+   background: #485460;   
+   border-radius: 24px;
+   border: 2px solid #0be881;
+   color: #fff;
+   font-weight: bold;
+}
+
+.menu_area ul li a:hover{
+   background-color: #ddd;
+   color: black;
+}
+.menu_area ul li a:active{
+   background-color: #32ff7e;
+   color: #fff;
+}
+
+
+
+/*-----------------finalWishList---------------*/
+
+#finalWishList {
+  margin-top: -90px;
+}
+
+#finalWishList .row{
+  margin: 0px -25px;
+}
+
+#finalWishList .table{
+  width: 100%;
+}
+
+#finalWishList h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#finalWishList form {
+   padding-top: 0px;
+   font-size: 16px;
+}
+
+#finalWishList select {
+   font-size: 16px;
+}
+
+#finalWishList .table thead th {
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+#finalWishList .table td {
+  vertical-align: middle;
+}
+
+#finalWishList img{
+  width: 80%;
+  margin: 0px;
+}
+
+#finalWishList .table label{   
+   font-size: 1em;
+   padding: 0px;  
+   margin: 0px;
+}
+
+#finalWishList .table td input[type="text"]{   
+  width: 4em;
+  margin: 0px;
+}
+
+#finalWishList .table td:nth-child(4) select{
+  width: auto;  
+  font-size: 14px;
+}
+
+
+/*finalWishList --> extra data*/
+
+#finalWishList .addMoreItem td:nth-child(1) input[type="text"]{
+   width:auto;
+   margin: -10px;
+   padding: 0px;
+}
+
+#finalWishList .addMoreItem td:nth-child(even) input[type="text"]{
+   width: 4em;
+   padding: 0px;
+   margin: 0px;
+}
+
+#finalWishList .addMoreItem td:nth-child(3) select{
+  width: auto;  
+  font-size: 14px;
+}
+
+#finalWishList .addMoreItem td:nth-child(5) {
+   width: 80px;
+}
+
+
+/*-----------------purchaseList---------------*/
+
+#purchaseList {
+  margin-top: -90px;
+}
+
+#purchaseList input[type="date"]{   
+  width: auto;
+  height: 30px;
+}
+
+#purchaseList .table thead th {
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+#purchaseList .table td {
+  vertical-align: middle;
+}
+
+#purchaseList img{
+  width: 80%;
+  margin: 0px;
+}
+
+#purchaseList .table label{   
+   font-size: 1em;
+   padding: 0px;  
+   margin: 0px;
+}
+
+/*------------footer---------------*/
+
+#footer{
+  background-color: #424242;
+  vertical-align: middle;
+}
+
+#footer li{
+  padding:8px 18px ;
+  font-size: 2em;
+}
+
+#footer .fa{
+  color:  #86878b ;
+}
+
+#footer p{
+  display:none; 
+}
+
+}
+
+/*portrait  landscape   Screen Orientation*/

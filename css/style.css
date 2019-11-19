@@ -1,0 +1,1151 @@
+@CHARSET "ISO-8859-1";
+@import url(normalize.css);
+
+@import "customhover.css";
+@import "animate.css";
+@import "hover.css";
+
+html,
+body { 
+	font-family: 'Roboto', sans-serif;
+  height: auto;
+  width: auto;
+}
+
+/*Nav bar*/
+
+.navbar{
+  margin: 0px;
+  background-color:#9C27B0;
+  position: sticky; /*fixed*/
+  width:100%;
+  z-index: 1;
+  top: 0px;
+}
+
+.logo{
+  width: 25%;
+  float: left;
+}
+
+.menu_area{
+  width: 75%;
+  float: right;
+}
+ .menu_area ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.logo ul li, .menu_area ul li{
+  display: inline-block;
+}
+
+
+.logo ul {
+  padding: 10px 50px;
+  margin: 10px 0px;
+}
+
+
+.menu_area ul li a{
+  padding: 10px 25px;
+  font-size: 18px;
+  text-align: right;
+  margin: 10px 0px;
+  display: block;
+  /*text-transform: uppercase;*/
+  text-decoration: none;
+}
+.menu_area ul {
+  text-align: right;
+}
+.menu_area ul li a:hover{
+  background-color: #3498db;
+  color: #222f3e;
+}
+
+
+#index,
+#updatePrice,
+#userCompleteView {  
+  background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/user.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  width: auto;  
+  min-height: 80vh;
+}
+
+#userAccount,
+#adminAccount {
+   background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/userAccount.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;    
+   display: block; 
+   min-height: 80vh;
+}
+
+#todayUpdate ,#todaysPrice {
+   background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/todaysPrice.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;    
+   display: block; 
+   width: auto;
+   min-height: 80vh;
+}
+
+#editPrice, #deleteMyAccount {
+   background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/editPrice.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;    
+   display: block; 
+   width: auto;
+   min-height: 80vh;
+}
+
+#userChose, #wishList {
+   background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/userChose.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;    
+   display: block; 
+   width: auto;
+  min-height: 80vh;
+}
+
+#finalWishList{
+   background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/finalWishList.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;    
+   display: block; 
+   width: auto;
+  min-height: 80vh;
+}
+
+#purchaseList{
+   background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/purchaseList.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;    
+   display: block; 
+   width: auto;
+  min-height: 80vh;
+}
+
+#addItem{
+   background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/addItem.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;    
+   display: block; 
+   width: auto;
+  min-height: 80vh;
+}
+
+#userList{
+   background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/userList.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;    
+   display: block; 
+   width: auto;
+  min-height: 80vh;
+}
+
+#userFullInfo{
+   background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/userFullInfo.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;    
+   display: block; 
+   width: auto;
+   min-height: 80vh;
+}
+
+#userAccountEdit{
+   background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/userAccountEdit.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;    
+   display: block; 
+   width: auto;
+   min-height: 80vh;
+}
+
+#userNewChose{
+   background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/userNewChose.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;    
+   display: block; 
+   width: auto;
+  min-height: 80vh;
+}
+
+#createAccount{
+   background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/createAccount.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: block; 
+   width: auto;
+   min-height: 80vh;
+}
+
+#userLogin,
+#adminLogin{
+   background-image: linear-gradient(rgba(10,0,0,.1),rgba(0,10,0,.2)),url("../images/userLogin.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: block; 
+   width: auto;
+   min-height: 80vh;
+}
+
+
+#index,
+#userLogin,
+#adminLogin,
+#createAccount,
+#addItem,
+#todayUpdate,
+#todaysPrice,
+#userNewChose,
+#userList,
+#editPrice,
+#deleteMyAccount,
+#todaysPrice,
+#userChose,
+#wishList,
+#finalWishList,
+#purchaseList,
+#updatePrice,
+#userFullInfo,
+#userAccountEdit,
+#userCompleteView form{
+  padding-top: 100px;
+}
+
+
+/*-----------------pagination---------------*/
+
+.pagination{ 
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.pagination a {
+    background: #e6af4b none repeat scroll 0 0;
+    border: 1px solid #a7700c;
+    border-radius: 3px;
+    color: #333;
+    margin-left: 3px;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+.pagination a:hover{
+    background: #be8723 none repeat scroll 0 0;
+    color: #fff;
+}
+
+/*-----------------legend-------------------*/
+fieldset.scheduler-border {
+    border: 5px groove skyblue !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+legend.scheduler-border { 
+    width:inherit;
+    font-size: 1.5em !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    border: 3px solid pink; 
+    background-color: darkblue;
+    border-radius: 12px;   
+    padding:5px 10px; 
+    margin-bottom:30px;
+}
+
+/*--------------User/admin account home page------------*/
+
+.contact_us_area {
+	min-height:100%
+}
+.contact_fullwidth {
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 9;
+}
+.contact_us {
+	background: url("../images/userAccountFloat.png") repeat scroll 0 0 transparent;
+	margin:10%;
+	height: 60%;
+	width: 80%;
+	position: absolute;
+	z-index: 99999;
+	color:#fff;
+	text-align:center
+}
+.contact_us_inner {	
+	margin-bottom: 5px;
+}
+
+.contact_us .name{
+	font-size: 25px;
+	color:#fff;
+}
+.contact_us h2{
+   padding-top: 15px;
+   font-size: 30px;
+   color:#fff;
+}
+
+.left{
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin: 5px 0 0 5px;
+    padding: 20px 5px 5px 20px;
+    text-align: left;  
+}
+
+.right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px 5px 0 0;
+    padding: 20px 5px 0 0;
+    text-align: center; 
+}
+.middle{   
+    background: url("../images/apple.png") repeat scroll 0 0 transparent;
+    background-position: center center;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    line-height: 10px;
+    text-align: center;
+}
+.middle form{
+  margin-top: 50px;
+}
+
+/*------------adminAccount----------------*/
+
+#adminAccount .left{   
+   background-color: green;
+  line-height: 5px;
+}
+#adminAccount .left h3{   
+line-height: 15px;
+}
+#adminAccount .right {   
+   padding: 5px ;
+   background-color: green;
+   /*margin-right: -20px;*/
+}
+
+#adminAccount .contact_us img{
+   /*height: 65px;*/
+   width: 160px;
+   /*border-radius: 50%;*/
+   border: 2px solid #dff9fb;   
+}
+
+#adminAccount .right .name {   
+  font-size: 1.5em;
+}
+
+
+/*------------when image not found--------------*/
+
+#adminAccount .right form{     
+  /* width:  200px;
+   height: 100px;*/
+}
+#adminAccount .right label{   
+   font-size: 16px;
+   padding: 10px;
+   margin-left: 0px;
+   border: 2px solid #ddd;
+   border-radius: 24px;
+   background-color: #dfe4ea;
+   color: black;
+}
+#adminAccount .right label:hover{   
+   background-color: pink;
+}
+
+#adminAccount .right label:active{   
+   background-color: pink;
+}
+
+#adminAccount .right button{   
+  margin-top: 5px;
+  padding: 5px;
+  background-color: #33d9b2;
+   color: black;
+}
+
+/*------------userAccount----------------*/
+#userAccount .left{   
+background-color: green;
+}
+#userAccount .left h3{   
+line-height: 15px;
+
+}
+
+#userAccount .right {   
+   padding: 5px ;
+   background-color: green;
+   /*margin-right: -20px;*/
+}
+
+#userAccount .contact_us img{
+   /*height: 65px;*/
+   width: 160px;
+   /*border-radius: 50%;*/
+   border: 2px solid #dff9fb;
+}
+
+#userAccount .right .name {   
+  font-size: 1.5em;
+}
+
+
+/*------------when image not found--------------*/
+
+#userAccount .right form{     
+  /* width:  200px;
+   height: 100px;*/
+}
+#userAccount .right label{   
+   font-size: 16px;
+   padding: 10px;
+   margin-left: 0px;
+   border: 2px solid #ddd;
+   border-radius: 24px;
+   background-color: #dfe4ea;
+   color: black;
+}
+#userAccount .right label:hover{   
+   background-color: pink;
+}
+
+#userAccount .right label:active{   
+   background-color: pink;
+}
+
+#userAccount .right button{   
+  margin-top: 5px;
+  padding: 5px;
+  background-color: #33d9b2;
+   color: black;
+}
+
+
+/*-------------------button---------------*/
+
+.btn-filled {
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  margin: 5px 5px;
+  padding: 10px 10px;
+  position: relative;
+  text-transform: capitalize;
+  opacity: 0;
+  -webkit-animation: 0.8s fadeinout 0.8s forwards;
+          animation: 0.8s fadeinout 0.8s forwards;
+}
+
+@-webkit-keyframes fadeinout{
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinout{
+  100%{
+    opacity: 1;
+  }
+}
+
+.btn-filled {
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  position: relative;
+}
+.btn-filled:hover {
+  background: #fb5535;
+}
+
+/*input type*/
+label{
+    color: white;
+    font-size: 20px;
+    padding: 0px 8px 0px 50px;
+    margin-left: 20px;
+}
+
+select {
+  border: 2px solid #c8c6c6;
+  color: #7c7c7c;
+  padding: 5px;
+  width: 60%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-family: 'open_sanssemibold';
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.custom-select {
+    font-size : 20px;
+    font-weight : bold;
+}
+
+input[type="text"], input[type="password"]{
+  border: 2px solid #c8c6c6;
+  text-align:center;
+  font-size: 1.2em;  
+  padding: 5px;
+  margin-bottom: 15px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-family: 'open_sanssemibold';
+}
+
+input[type=checkbox] {
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */  
+  margin: 40%;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: pink;
+    outline: none;
+}
+
+input[type=file]{
+   background-color: green;
+}
+
+
+/*adminLogin/userLogin*/
+#adminLogin button{
+  margin-left: 15px;
+}
+
+#userLogin button{
+  margin-left: 15px;
+}
+
+/*-----------createAccount-----------*/
+
+#createAccount .table th{  
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+#createAccount .table td{   
+   font-size: 18px;
+   padding: 15px 15px 0px;
+}
+
+#createAccount hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid magenta;
+    margin: -10px 0 15px;
+}
+#createAccount .table label{
+    padding: 0px 8px 0px 0px;
+}
+
+#createAccount .gender label{
+   padding: 3px 8px 0px 10px;
+   font-size : 18px;
+   margin-left: 0px;
+   color: blue;
+}
+
+
+.gender input[type=radio]{
+-ms-transform: scale(2); /* IE */
+ -moz-transform: scale(2); /* FF */
+ -webkit-transform: scale(1.5); /* Safari and Chrome */
+ -o-transform: scale(2); /* Opera */
+  margin-left: 30px;
+  margin-right: 0px;
+}
+
+#createAccount .gender{
+  background-color: green;
+  height: 40px;
+  width: 250px;
+  padding: 5px 0px 5px 0px;
+  margin: -8px 0px 8px 15px ;
+}
+
+
+/*------------addItem---------*/
+#addItem h2, h3{
+  color: #fff;
+}
+
+
+.choseDate{
+  width:auto;
+  background-color: green;
+  font-size: 1.2em;
+}
+
+.choseDate label{ 
+  margin: 10px 0;
+  padding: 0px;  
+}
+
+
+
+
+/*Table*/
+table,thead,th,tr,td {
+   border-collapse: collapse;
+   border: 2px solid green;  
+   color:  #fff;
+}
+
+table th label{
+   font-size: 18px;
+   color: #fff;
+   background-color: skyblue;
+   text-align: center;
+}
+
+table th{
+   font-size: 18px;
+   background-color: skyblue;
+   text-align: center;
+}
+
+#addItem .table label{
+   font-size: 18px;
+   padding: 15px 0px 0px 0px;  
+   margin-left: 0px;
+   text-align: center;
+}
+
+#addItem .table td:nth-child(3){
+   padding-top: 15px;
+}
+.addItem{
+   /*width: 300px;
+   height: auto;*/
+   background-color: green;
+   /*font-size: 20px;*/
+   border: 5px solid #9370DB;
+   /*text-align: center;*/
+}
+ 
+
+/*today update */
+
+#todayUpdate .table label{
+   font-size: 18px;
+   padding: 15px 0px 0px 0px;  
+   margin-left: 0px;
+}
+#todayUpdate .table td:nth-child(3){
+   text-align: center;
+   vertical-align: middle;
+  } 
+
+#todayUpdate .choseDate2{
+   width: 300px;
+   height: auto;
+   background-color: green;
+   font-size: 20px;
+   border: 5px solid #9370DB;
+   text-align: center;
+}
+
+#todayUpdate .choseDate2 label{
+   margin-top: 10px;
+   margin-left: -50px;   
+}
+
+.todayUpdate h3{
+   text-align: center;
+}
+
+.todayUpdate hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid magenta;
+    margin: 10px 0;
+    padding: 0; 
+}
+
+/*todays Price*/
+
+#todaysPrice .table label{
+   font-size: 18px;
+   padding: 15px 0px 0px 0px;  
+   margin-left: 0px;
+}
+#todaysPrice .table td:nth-child(3){
+   text-align: center;
+   vertical-align: middle;
+  } 
+
+
+#todaysPrice .choseDate2{
+   width: 300px;
+   height: auto;
+   background-color: green;
+   font-size: 20px;
+   border: 5px solid #9370DB;
+   text-align: center;
+}
+#todaysPrice .choseDate2 label{
+   margin-top: 10px;
+   margin-left: -50px;   
+}
+#todaysPrice .todaysPrice h3{
+   text-align: center;
+}
+#todaysPrice .col-sm-2{
+  margin-right: 50px;
+}
+.todaysPrice hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid magenta;
+    margin: 10px 0;
+    padding: 0; 
+}
+
+/*userNewChose*/
+
+#userNewChose .table label{   
+   font-size: 18px;
+   padding: 15px 0px 0px 0px;  
+   margin-left: 10px;
+}
+
+#userNewChose h2 {
+  color: #fff;
+  text-align: center;
+}
+#userNewChose hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid magenta;   
+    margin: 10px 0 15px;
+
+}
+
+
+
+/*userList*/
+#userList .table label{   
+   font-size: 18px;
+   padding: 15px 0px 0px 0px;  
+   margin-left: 10px;
+}
+
+#userList h2 {
+  color: #fff;
+  text-align: center;
+}
+#userList hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid magenta;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+/*editPrice*/
+#editPrice .table label{   
+   font-size: 18px;
+   padding: 15px 0px 0px 0px;  
+   margin-left: 10px;
+}
+
+#editPrice h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 0px;
+}
+#editPrice hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid magenta;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+#editPrice .table td:nth-child(2){
+   padding-top: 20px;
+   width: 100px;
+}
+
+
+/*userChose*/
+#userChose .table label{   
+   font-size: 18px;
+   padding: 15px 0px 0px 0px;  
+   margin-left: 0px;
+}
+
+#userChose h2 {
+  color: #fff;
+  text-align: center;
+  /*padding-bottom: 0px;*/
+}
+#userChose hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid magenta;
+    margin: 1em 0;
+    padding: 0; 
+}
+#userChose .col-sm-2{
+  margin-right: 40px;
+}
+
+
+/*---------------wishList---------------*/
+
+#wishList .table label{   
+   font-size: 18px;
+   padding: 15px 0px 0px 0px;  
+   margin-left: 10px;
+}
+
+#wishList h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+}
+
+
+#wishList form {
+   padding-top: 10px ;
+   padding-right: 10px;
+   text-align: right;
+}
+
+#wishList select {
+   color: #7c7c7c;
+   padding: 5px;
+   width: 50%;
+   text-align: center;
+   margin-bottom: 0px
+}
+#wishList hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid magenta;
+    margin: 0 0;
+}
+
+#userChose .table label{   
+   font-size: 18px;
+   padding: 15px 0px 0px 0px;  
+   /*margin-left: 0px;*/
+}
+
+#editPrice .table td:nth-child(2){
+   padding-top: 20px;
+   width: 100px;
+}
+
+
+/*-----------------finalWishList-------------------*/
+
+#finalWishList h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#finalWishList hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid magenta;
+    margin: 0 0;
+}
+
+#finalWishList form {
+   padding-top: 0px;
+   font-size: 18px;
+}
+
+#finalWishList select {
+   color: #7c7c7c;
+   width: auto;
+   text-align: center;
+}
+
+#finalWishList .table thead th {
+  vertical-align: middle;
+}
+
+#finalWishList .table td {
+  vertical-align: middle;
+}
+
+#finalWishList img{
+  width: 80%;
+  margin: 0px;
+}
+
+#finalWishList .table label{   
+   font-size: 1.3em;
+   padding: 0px;  
+   margin: 0px;
+}
+
+#finalWishList .table td input[type="text"]{
+  width: 5em;
+  margin: 0px;
+}
+
+#finalWishList .table td:nth-child(4) select{
+  width: auto;  
+  font-size: 16px;
+}
+
+/*finalWishList --> extra data*/
+
+#finalWishList .addMoreItem td:nth-child(1) input[type="text"]{
+   width:auto;
+}
+
+#finalWishList .addMoreItem td:nth-child(even) input[type="text"]{
+   width: 5em;
+   padding: 0px;
+   margin: 0px;
+}
+
+#finalWishList .addMoreItem td:nth-child(3) select{
+  width: auto;  
+  font-size: 16px;
+}
+
+#finalWishList .addMoreItem td:nth-child(5) {
+   width: 80px;
+}
+
+
+/*---------------purchaseList----------------------*/
+
+#purchaseList h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#purchaseList hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid magenta;
+    margin: 0 0;
+}
+
+#purchaseList input[type="date"]{   
+  width: auto;
+  height: 30px;
+  font-size: 1em;
+  margin: 0px;
+}
+
+#purchaseList h3 {
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+}
+
+#purchaseList .table label{   
+   font-size: 18px;
+   padding: 15px 0px 0px 0px;  
+   margin-left: 10px;
+}
+
+#purchaseList .otherDay label {
+   padding-top: 0px;
+}
+
+#purchaseList select {
+   color: #7c7c7c;
+   padding: 5px;
+   width: 50%;
+   text-align: center;
+   margin-bottom: 0px
+}
+
+#purchaseList .otherDay td{
+  vertical-align: middle;
+}
+
+
+/*-------------userFullInfo---------------*/
+
+#userFullInfo .table th{  
+   vertical-align: middle;
+   color: black;
+   text-align: right;
+}
+
+#userFullInfo .table label{   
+   font-size: 18px;
+   padding: 10px 0px 8px;
+   vertical-align: middle;
+}
+
+#userFullInfo h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+}
+#userFullInfo hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid magenta;
+    margin: 0 0;
+}
+
+
+/*userAccountEdit*/
+
+#userAccountEdit .table th{  
+   vertical-align: middle;
+   color: black;
+   text-align: right;
+   /*margin: 0px;*/
+}
+
+#userAccountEdit .table td{   
+   font-size: 18px;
+   padding: 15px 10px 0px;
+}
+
+#userAccountEdit h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+}
+#userAccountEdit hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid magenta;
+    margin: 0 0;
+}
+
+/*userCompleteView*/
+
+#userCompleteView .table th{  
+   vertical-align: middle;
+   color: black;
+   text-align: right;
+}
+
+#userCompleteView .table label{  
+  font-size: 18px;
+   padding: 10px 0px 8px;
+   vertical-align: middle;   
+} 
+
+#userCompleteView h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+}
+#userCompleteView hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid magenta;
+    margin: 0 0;
+}
+
+.responsive {
+   width: 100%;
+   height: auto;
+}
+
+/*--------------footer part------------------*/
+#footer{
+  background-color: #424242;
+}
+#footer li{
+  padding:10px 10px ;
+  font-size: 2em;
+}
+#footer ul, ol {
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+
+#footer .fa{
+  color:  #86878b ;
+}
+#footer p{
+  color: #ddd;
+  font-size: 1.5em;
+  padding-bottom: 15px;
+}
+
+
+/*#search.DataTable*/
+
+table.dataTable tbody tr {
+    background-color: transparent;
+}
+.dataTables_wrapper .dataTables_length {
+  display: none;
+  background-color: green;    
+}
+.dataTables_wrapper .dataTables_filter {
+  margin: 0px;
+  text-align: right;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: left;
+    text-align: right;
+}
